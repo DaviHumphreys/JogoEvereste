@@ -1,0 +1,2 @@
+x += velx
+y += vely
