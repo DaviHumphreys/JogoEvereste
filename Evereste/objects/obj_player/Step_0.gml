@@ -1,7 +1,8 @@
 movex = -keyboard_check(ord("A"))+keyboard_check(ord("D"))
 pulo = keyboard_check(ord("W"))
 puloInicio = keyboard_check_pressed(ord("W"))
-
+ataque = keyboard_check_pressed(ord("J"))
+sprite_index = sprites[movendo]
 velx = movex * ser.vel
 
 	//pulo
@@ -29,6 +30,7 @@ else
 }
 
 	//bater cabeça caiu
+	
 if(place_meeting(x, y-1, obj_parede))
 {
 	pulo_forca = 1
@@ -36,6 +38,7 @@ if(place_meeting(x, y-1, obj_parede))
 }
 
 	//colisão com blocos
+	
 if place_meeting(x + velx,y,obj_parede)
 {
 		while !place_meeting(x+sign(velx),y,obj_parede)
@@ -56,31 +59,86 @@ if place_meeting(x,y + vely,obj_parede)
 	vely = 0
 }
 
+	// Eliminando qualquer problema de colisão
 
-
-
-
-
-/*
-	//animação
-if(movey > 0)
-{
-	movendo = 2
+if(place_meeting(x, y, obj_parede)) {
+	for(var i = 0; i < 1000; ++i) {
+		//Right
+		if(!place_meeting(x + i, y, obj_parede)) {
+			x += i;
+			break;
+		}
+		//Left
+		if(!place_meeting(x - i, y, obj_parede)) {
+			x -= i;
+			break;
+		}
+		//Up
+		if(!place_meeting(x, y - i, obj_parede)) {
+			y -= i;
+			break;
+		}
+		//Down
+		if(!place_meeting(x, y + i, obj_parede)) {
+			y += i;
+			break;
+		}
+		//Top Right
+		if(!place_meeting(x + i, y - i, obj_parede)) {
+			x += i;
+			y -= i;
+			break;
+		}
+		//Top Left
+		if(!place_meeting(x - i, y - i, obj_parede)) {
+			x -= i;
+			y -= i;
+			break;
+		}
+		//Bottom Right
+		if(!place_meeting(x + i, y + i, obj_parede)) {
+			x += i;
+			y += i;
+			break;
+		}
+		//Bottom Left
+		if(!place_meeting(x - i, y + i, obj_parede)) {
+			x -= i;
+			y += i;
+			break;
+		}
+	}
 }
-else if(movey < 0)
+
+	// Ataque
+
+if(ataque)
 {
-	movendo = 3
+	instance_create_layer(x + 50 * sign(image_xscale), y - 70, "Instances", obj_atkPlayer)
 }
-if(movex > 0 || movex < 0)
+
+	// Sprite vira
+if(movex != 0)
 {
 	movendo = 1
-	image_xscale =+1
+	if(movex < 0)
+	{
+		image_xscale = -0.1336275
+	}
+	else if(movex > 0)
+	{
+		image_xscale = 0.1336275
+	}
+
 }
-if(movex< 0)
+else
 {
-	image_xscale =-1
+	movendo = 0;	
 }
+
+
+
 	
-*/
+
 
 	
