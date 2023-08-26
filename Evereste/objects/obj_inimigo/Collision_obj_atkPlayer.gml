@@ -1,1 +1,1 @@
-ser.vida -= 1;
+vida -= 1;

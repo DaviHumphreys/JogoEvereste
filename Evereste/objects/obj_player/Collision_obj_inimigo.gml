@@ -1,5 +1,5 @@
-ser.vida -= 1;
-if(ser.vida <= 0)
+vida -= 1;
+if(vida <= 0)
 {
 	instance_destroy();	
 }

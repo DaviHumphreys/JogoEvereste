@@ -3,7 +3,7 @@ pulo = keyboard_check(ord("W"))
 puloInicio = keyboard_check_pressed(ord("W"))
 ataque = keyboard_check_pressed(ord("J"))
 sprite_index = sprites[movendo]
-velx = movex * ser.vel
+velx = movex * vel
 
 	//pulo
 
@@ -14,17 +14,21 @@ if(place_meeting(x, y+1, obj_parede) && puloInicio)
 	pode_pular = true;
 	tiraDedo = false;
 }
-if(pulo_forca < 0.85 && pulo && pode_pular)
+if(pulo_forca < 0.84 && pulo && pode_pular)
 {
 		pulo_forca += 0.04;
 		vely = -pulo_vel * pulo_forca;
+}
+else if(keyboard_check_released(ord("W")) && pulo_forca <= 0.84)
+{
+		vely += (GRAVIDADE * massa) * 5;
 }
 else
 {
 	pode_pular = false;
 	if(vely < max_vely)
 	{
-	vely += GRAVIDADE * ser.massa;
+	vely += GRAVIDADE * massa;
 	}
 
 }
@@ -117,9 +121,16 @@ if(ataque)
 	instance_create_layer(x + 50 * sign(image_xscale), y - 70, "Instances", obj_atkPlayer)
 }
 
-	// Sprite vira
+	// Sprite anda e vira
+	
 if(movex != 0)
 {
+		// Deixa a troca do sprite parado para o andando fluida e precisa
+		
+	if(sprite_index != spr_andando)
+	{
+		image_index = 11
+	}
 	movendo = 1
 	if(movex < 0)
 	{
