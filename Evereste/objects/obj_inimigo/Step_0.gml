@@ -44,3 +44,8 @@ else
 	}
 	y += vely;
 }
+
+if(flashAlpha > 0)
+{
+	flashAlpha -= 0.05;	
+}

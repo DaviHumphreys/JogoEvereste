@@ -7,3 +7,6 @@ vely = 0
 velx = 0
 
 estado = "parado"
+
+flashAlpha = 0;
+flashColor = c_white;
