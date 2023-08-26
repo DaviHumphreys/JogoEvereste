@@ -14,7 +14,7 @@ if place_meeting(x + velx,y,obj_parede)
 }
 
 
-if place_meeting(x,y + vely + 3,obj_parede)
+if place_meeting(x,y + vely * 3,obj_parede)
 {
 		while !place_meeting(x,y+sign(vely),obj_parede)
 		{
