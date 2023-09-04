@@ -7,7 +7,7 @@ velx = movex * vel
 
 	//pulo
 
-if(place_meeting(x, y+1, obj_parede) && puloInicio)
+if(place_meeting(x, y+10, obj_parede) && puloInicio)
 {
 	pulo_forca = 0.1;
 	vely = -pulo_vel * pulo_forca;
@@ -19,9 +19,9 @@ if(pulo_forca < 0.84 && pulo && pode_pular)
 		pulo_forca += 0.04;
 		vely = -pulo_vel * pulo_forca;
 }
-else if(keyboard_check_released(ord("W")) && pulo_forca <= 0.84)
+else if(keyboard_check_released(ord("W")) && pulo_forca <= 0.84 && pulo_forca >= 0.34)
 {
-		vely += (GRAVIDADE * massa) * 5;
+		vely += (GRAVIDADE * massa) * 3;
 }
 else
 {
@@ -118,7 +118,7 @@ if(place_meeting(x, y, obj_parede)) {
 
 if(ataque)
 {
-	instance_create_layer(x + 50 * sign(image_xscale), y - 70, "Instances", obj_atkPlayer)
+	instance_create_layer(x + 500 * sign(image_xscale), y - 600, "Instances", obj_atkPlayer)
 }
 
 	// Sprite anda e vira
@@ -134,11 +134,11 @@ if(movex != 0)
 	movendo = 1
 	if(movex < 0)
 	{
-		image_xscale = -0.1336275
+		image_xscale = -1
 	}
 	else if(movex > 0)
 	{
-		image_xscale = 0.1336275
+		image_xscale = 1
 	}
 
 }

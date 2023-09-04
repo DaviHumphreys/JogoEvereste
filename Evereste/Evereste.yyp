@@ -46,6 +46,7 @@
   "resources": [
     {"id":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
     {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
+    {"id":{"name":"Tile_chao1","path":"tilesets/Tile_chao1/Tile_chao1.yy",},},
     {"id":{"name":"obj_atkPlayer","path":"objects/obj_atkPlayer/obj_atkPlayer.yy",},},
     {"id":{"name":"Menu8","path":"sprites/Menu8/Menu8.yy",},},
     {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
@@ -63,6 +64,7 @@
     {"id":{"name":"spr_sensor","path":"sprites/spr_sensor/spr_sensor.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"scr_grav","path":"scripts/scr_grav/scr_grav.yy",},},
+    {"id":{"name":"Tiles_Chao1","path":"sprites/Tiles_Chao1/Tiles_Chao1.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},

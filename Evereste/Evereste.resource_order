@@ -1,8 +1,12 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Player","order":2,"path":"folders/Sprites/Player.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"Menu8","order":2,"path":"sprites/Menu8/Menu8.yy",},
     {"name":"obj_opcoesMenu","order":1,"path":"objects/obj_opcoesMenu/obj_opcoesMenu.yy",},
+    {"name":"Tiles_Chao1","order":3,"path":"sprites/Tiles_Chao1/Tiles_Chao1.yy",},
+    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"guitarra_michael_gm227n_ab_2626","order":1,"path":"sprites/guitarra_michael_gm227n_ab_2626/guitarra_michael_gm227n_ab_2626.yy",},
   ],
 }

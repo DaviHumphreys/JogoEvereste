@@ -1,7 +1,7 @@
-vel = 4
+vel = 40
 vida = 5
 vida_max = 5
-massa = 2
+massa = 20
 
 vely = 0
 velx = 0

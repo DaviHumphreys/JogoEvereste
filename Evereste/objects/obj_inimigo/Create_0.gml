@@ -2,4 +2,4 @@ event_inherited();
 
 estado = "andando"
 
-velx = 1;
+velx = 10;
