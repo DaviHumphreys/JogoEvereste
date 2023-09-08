@@ -4,46 +4,45 @@ script_execute(get_Input)
 
 #region Movimento e Pulo
 sprite_index = sprites[movendo]
-velx = movex * vel
+
 
 	//pulo
 
 if(place_meeting(x, y+10, obj_parede) && puloInicio)
 {
-	pulo_forca = 1.23;
+	pulo_forca = 1.33;
+	esta_pulando = true;
 	vely = -pulo_vel * pulo_forca;
-	pode_pular = true;
-	tiraDedo = false;
 }
-if(pulo_forca < 1.24 && pulo && pode_pular)
+if(pulo && esta_pulando)
 {
-		pulo_forca -= 0.04;
+		pulo_forca -= 0.05;
 		vely = -pulo_vel * pulo_forca;
 }
-else if(keyboard_check_released(ord("W")) && pulo_forca <= 1.24 && pulo_forca >= -1)
+else if(keyboard_check_released(ord("W")) and pulo_forca >= 0.10)
 {
-		vely += (GRAVIDADE * massa) * 3;
+	vely = (GRAVIDADE * massa * 1.4);
 }
 else
 {
-	pode_pular = false;
+	esta_pulando = false;
 	if(vely < max_vely)
 	{
-	vely += GRAVIDADE * massa;
+	vely = GRAVIDADE * massa * 1.7;
 	}
 
 }
 
 	//bater cabeça caiu
 	
-if(place_meeting(x, y-1, obj_parede))
+if(place_meeting(x, y-10, obj_parede))
 {
 	pulo_forca = 0
 	
 }
 
 	//colisão com blocos
-	
+
 if place_meeting(x + velx,y,obj_parede)
 {
 		while !place_meeting(x+sign(velx),y,obj_parede)
@@ -121,8 +120,21 @@ if(place_meeting(x, y, obj_parede)) {
 
 if(ataque)
 {
+	if(!place_meeting(x, y+10, obj_parede) and baixo and movex == 0)
+	{
+		instance_create_layer(x, y + 300, "Instances", obj_atkPlayer)
+		if(place_meeting(x, y + 300, obj_inimigo))
+		{
+			pulinho = true;
+			pulo_forca += 1;
+		}
+	}
+	else
+	{
 	instance_create_layer(x + 500 * sign(image_xscale), y - 600, "Instances", obj_atkPlayer)
+	}
 }
+
 
 	// Sprite anda e vira
 	
@@ -150,5 +162,20 @@ else
 	movendo = 0;	
 }
 
+if(pulinho)
+{
+		vely = Pulinho(vely, pulo_vel, pulo_forca)
+		pulo_forca -= 0.06
+		if(pulo_forca <= 0)
+		{
+			pulinho = false;	
+		}
+}
+velx = movex * vel
+}
 
+function Pulinho(_vely, _pulo_vel, _pulo_forca)
+{
+	_vely = -_pulo_vel * _pulo_forca;
+	return _vely;
 }
