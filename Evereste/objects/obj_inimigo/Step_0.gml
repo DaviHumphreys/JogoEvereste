@@ -29,7 +29,7 @@ if place_meeting(x,y + vely * 3,obj_parede)
 if(place_meeting(x, y+1, obj_parede))
 {
 	
-	if(!place_meeting(x + (velx * 30), y+1, obj_parede) or place_meeting(x + (velx+10), y, obj_parede))
+	if(!place_meeting(x + (velx * 30), y+1, obj_parede) or place_meeting(x + (velx*2), y, obj_parede))
 	{
 		image_xscale = image_xscale*-1;
 		velx = velx*-1;

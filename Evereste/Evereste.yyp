@@ -41,9 +41,10 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
+    {"id":{"name":"spr_pedraFundo","path":"sprites/spr_pedraFundo/spr_pedraFundo.yy",},},
     {"id":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
     {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
     {"id":{"name":"Tile_chao1","path":"tilesets/Tile_chao1/Tile_chao1.yy",},},
@@ -54,6 +55,7 @@
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},},
     {"id":{"name":"obj_sensor","path":"objects/obj_sensor/obj_sensor.yy",},},
     {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
+    {"id":{"name":"PlayerStateLIVRE","path":"scripts/PlayerStateLIVRE/PlayerStateLIVRE.yy",},},
     {"id":{"name":"obj_opcoesMenu","path":"objects/obj_opcoesMenu/obj_opcoesMenu.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"sh_flash","path":"shaders/sh_flash/sh_flash.yy",},},
@@ -67,6 +69,7 @@
     {"id":{"name":"Tiles_Chao1","path":"sprites/Tiles_Chao1/Tiles_Chao1.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"get_Input","path":"scripts/get_Input/get_Input.yy",},},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
     {"id":{"name":"spr_parado","path":"sprites/spr_parado/spr_parado.yy",},},
@@ -89,6 +92,7 @@
     {"roomId":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
     {"roomId":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
