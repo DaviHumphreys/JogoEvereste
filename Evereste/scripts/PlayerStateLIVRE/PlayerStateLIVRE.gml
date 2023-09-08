@@ -4,7 +4,7 @@ script_execute(get_Input)
 
 #region Movimento e Pulo
 sprite_index = sprites[movendo]
-
+velx = movex * vel
 
 	//pulo
 
@@ -123,10 +123,10 @@ if(ataque)
 	if(!place_meeting(x, y+10, obj_parede) and baixo and movex == 0)
 	{
 		instance_create_layer(x, y + 300, "Instances", obj_atkPlayer)
-		if(place_meeting(x, y + 300, obj_inimigo))
+		if(place_meeting(x, y + 400, obj_inimigo))
 		{
 			pulinho = true;
-			pulo_forca += 1;
+			pulo_forca = 1;
 		}
 	}
 	else
@@ -171,7 +171,7 @@ if(pulinho)
 			pulinho = false;	
 		}
 }
-velx = movex * vel
+
 }
 
 function Pulinho(_vely, _pulo_vel, _pulo_forca)
