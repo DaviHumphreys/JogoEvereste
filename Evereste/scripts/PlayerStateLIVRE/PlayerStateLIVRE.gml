@@ -135,6 +135,10 @@ if(ataque)
 	}
 }
 
+if(piscando)
+{
+	piscando_cd = Piscar(piscando_cd);
+}
 
 	// Sprite anda e vira
 	
@@ -178,4 +182,33 @@ function Pulinho(_vely, _pulo_vel, _pulo_forca)
 {
 	_vely = -_pulo_vel * _pulo_forca;
 	return _vely;
+}
+
+function Piscar(_cd)
+{
+	_cd -= 0.1;
+	if(_cd <= 0)
+	{
+		piscando = false;
+		_cd = 7;
+	}
+	
+	if(flashAlpha > 0)
+	{
+		if(flashAlpha < 0.3)
+		{
+			flashAlpha = 0.60;
+		}
+		else
+		{
+			flashAlpha -= 0.03;	
+		}
+	}
+	
+	if(_cd <= 0.5)
+	{
+		flashAlpha = 0;	
+	}
+	
+	return _cd;
 }
