@@ -23,9 +23,7 @@
     {"name":"inst_4647A521","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_74A3F813","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_793DB8DB","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_3B8CB567","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_6665CB62","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_2803DE8F","path":"rooms/Room4/Room4.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -48,9 +46,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_793DB8DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":9.872203,"scaleY":14.808305,"x":18630.576,"y":1170.021,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B8CB567","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":10464.0,"y":5920.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6665CB62","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":11584.0,"y":4896.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2803DE8F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":11584.0,"y":5888.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

@@ -8,11 +8,12 @@ if(flashAlpha > 0)
 	flashAlpha -= 0.05;	
 }
 
+
 switch (estado)
 {
 	case EnemyState.BASICO: break
-	case EnemyState.NORMAL: break;
+	case EnemyState.NORMAL: EnemyStateNormal() break;
 	case EnemyState.ATENTO: EnemyStateAtento() break;
-	case EnemyState.ATACANDO: break;
+	case EnemyState.ATACANDO: EnemyStateAtacando() break;
 }
 

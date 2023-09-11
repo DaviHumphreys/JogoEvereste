@@ -2,6 +2,10 @@ event_inherited();
 
 estado = EnemyState.NORMAL;
 
-velx = 5;
+velx = 8;
 
-vely = 6;
+vely = 11;
+
+spawnx = x;
+spawny = y;
+

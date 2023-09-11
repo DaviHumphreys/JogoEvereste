@@ -11,3 +11,18 @@ enum EnemyState
 	ATENTO,
 	ATACANDO
 }
+
+function EnemyStateNormal()
+{
+	
+}
+
+function EnemyStateAtacando()
+{
+	
+}
+
+function EnemyStateAtento()
+{
+	
+}
