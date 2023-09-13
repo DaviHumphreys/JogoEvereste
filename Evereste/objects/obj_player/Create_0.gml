@@ -4,7 +4,7 @@ pulo_forca = 1.23;
 knockback_forca = 1;
 pulo_vel = 80;
 esta_pulando = false;
-max_vely = 100;
+max_vely = 50;
 pulinho = false;
 
 sprites[0] = spr_parado;

@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Colisões",
+    "path": "folders/Objetos/Colisões.yy",
   },
   "parentObjectId": null,
   "persistent": false,

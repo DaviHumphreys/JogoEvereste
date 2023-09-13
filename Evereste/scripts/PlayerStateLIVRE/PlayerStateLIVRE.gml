@@ -14,21 +14,21 @@ if(place_meeting(x, y+10, obj_parede) && puloInicio)
 	esta_pulando = true;
 	vely = -pulo_vel * pulo_forca;
 }
-if(pulo && esta_pulando)
+if(pulo && esta_pulando && pulo_forca >= -0.6)
 {
 		pulo_forca -= 0.05;
 		vely = -pulo_vel * pulo_forca;
-}
+}/*
 else if(keyboard_check_released(ord("W")) and pulo_forca >= 0.10)
 {
-	vely = (GRAVIDADE * massa * 1.4);
-}
+	vely = (GRAVIDADE * massa * 1.7);
+}*/
 else
 {
 	esta_pulando = false;
 	if(vely < max_vely)
 	{
-	vely = GRAVIDADE * massa * 1.7;
+	vely += GRAVIDADE * massa * 1.7;
 	}
 
 }
