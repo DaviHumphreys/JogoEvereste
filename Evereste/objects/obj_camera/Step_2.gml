@@ -8,8 +8,8 @@ if instance_exists(view_target)
 	x1 = clamp(x1, 0, room_width - (global.larguraCamera));
 	y1 = clamp(y1, 0, room_width - (global.alturaCamera));
 	
-	cx = camera_get_view_x(view_camera[0]);
-	cy = camera_get_view_y(view_camera[0]);
+	var cx = camera_get_view_x(view_camera[0]);
+	var cy = camera_get_view_y(view_camera[0]);
 
 	camera_set_view_pos(view_camera[0], lerp(cx, x1, spd), lerp(cy, y1, spd))
 }

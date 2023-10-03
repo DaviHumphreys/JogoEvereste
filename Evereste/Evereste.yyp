@@ -40,12 +40,11 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"spr_Fundo1","path":"sprites/spr_Fundo1/spr_Fundo1.yy",},},
     {"id":{"name":"spr_pedraFundo","path":"sprites/spr_pedraFundo/spr_pedraFundo.yy",},},
-    {"id":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
     {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
     {"id":{"name":"Tile_chao1","path":"tilesets/Tile_chao1/Tile_chao1.yy",},},
     {"id":{"name":"obj_iluminacao","path":"objects/obj_iluminacao/obj_iluminacao.yy",},},
@@ -79,6 +78,7 @@
     {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
     {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
     {"id":{"name":"obj_videoTrans","path":"objects/obj_videoTrans/obj_videoTrans.yy",},},
+    {"id":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
     {"id":{"name":"spr_parado","path":"sprites/spr_parado/spr_parado.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -88,14 +88,14 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room8","path":"rooms/Room8/Room8.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
     {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"roomId":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
-    {"roomId":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
+    {"roomId":{"name":"Room8","path":"rooms/Room8/Room8.yy",},},
+    {"roomId":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
