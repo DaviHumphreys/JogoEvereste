@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "guitarra_michael_gm227n_ab_2626",
-    "path": "sprites/guitarra_michael_gm227n_ab_2626/guitarra_michael_gm227n_ab_2626.yy",
+    "name": "spr_botao",
+    "path": "sprites/spr_botao/spr_botao.yy",
   },
   "spriteMaskId": null,
   "visible": true,

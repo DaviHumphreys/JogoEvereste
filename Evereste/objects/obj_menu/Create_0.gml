@@ -1,4 +1,8 @@
-opcoes = ["Novo Jogo", "Carregar Jogo", "Opções", "Sair"];
+audio_play_sound(snd_musicaMenu, 1, true);
+
+
+
+/*opcoes = ["Novo Jogo", "Carregar Jogo", "Opções", "Sair"];
 index = 0;
 
-ops = array_length(opcoes);
+ops = array_length(opcoes);*/

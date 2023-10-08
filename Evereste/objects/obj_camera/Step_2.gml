@@ -13,3 +13,7 @@ if instance_exists(view_target)
 
 	camera_set_view_pos(view_camera[0], lerp(cx, x1, spd), lerp(cy, y1, spd))
 }
+else
+{
+	camera_set_view_pos(view_camera[0], 0, 0)
+}

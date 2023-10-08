@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite5",
-    "path": "sprites/Sprite5/Sprite5.yy",
+    "name": "sprAtack",
+    "path": "sprites/sprAtack/sprAtack.yy",
   },
   "spriteMaskId": null,
   "visible": false,
