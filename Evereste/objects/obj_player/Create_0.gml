@@ -24,3 +24,8 @@ enum playerState
 }
 inimigo = 0
 vida = 15;
+
+keyboard_set_map(vk_up, ord("W"));
+keyboard_set_map(vk_left, ord("A"));
+keyboard_set_map(vk_right, ord("D"));
+keyboard_set_map(vk_down, ord("S"));

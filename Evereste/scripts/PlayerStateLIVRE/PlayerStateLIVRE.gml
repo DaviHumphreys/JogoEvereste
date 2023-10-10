@@ -28,7 +28,7 @@ else
 	esta_pulando = false;
 	if(vely < max_vely)
 	{
-	vely += GRAVIDADE * massa * 1.7;
+		vely += GRAVIDADE * massa;
 	}
 
 }
@@ -37,7 +37,7 @@ else
 	
 if(place_meeting(x, y-10, obj_parede))
 {
-	pulo_forca = 0
+	pulo_forca = -0.7
 	
 }
 

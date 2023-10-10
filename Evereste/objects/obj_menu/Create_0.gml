@@ -1,8 +1,15 @@
 audio_play_sound(snd_musicaMenu, 1, true);
 
 
+function Ir(xx)
+{
+	xx.x += 500
+}
 
-/*opcoes = ["Novo Jogo", "Carregar Jogo", "Opções", "Sair"];
-index = 0;
+function Voltar(xx)
+{
+	xx.x -= 500
+}
 
-ops = array_length(opcoes);*/
+botoes = obj_opcoesMenu
+grade = obj_gradeMenu

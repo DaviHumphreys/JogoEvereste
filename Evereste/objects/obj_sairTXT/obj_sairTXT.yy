@@ -1,18 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_menu",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_sairTXT",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Menu",
     "path": "folders/Objetos/Sistemas/Menu.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_jogarTXT",
+    "path": "objects/obj_jogarTXT/obj_jogarTXT.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_sair",
+    "path": "sprites/spr_sair/spr_sair.yy",
+  },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
