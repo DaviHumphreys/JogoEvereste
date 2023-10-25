@@ -6,6 +6,9 @@ pulo_vel = 80;
 esta_pulando = false;
 max_vely = 50;
 pulinho = false;
+puloDuplo = false;
+puloDuploInicio = true;
+cdATK = 0;
 
 sprites[0] = spr_parado;
 sprites[1] = spr_andando;
@@ -16,14 +19,16 @@ piscando_cd = 7;
 flashColor = c_black;
 
 estado = playerState.LIVRE;
+
 enum playerState
 {
 	LIVRE,
 	DANO,
 	TRAVADO
 }
+
 inimigo = 0
-vida = 15;
+vida = 3;
 
 keyboard_set_map(vk_up, ord("W"));
 keyboard_set_map(vk_left, ord("A"));

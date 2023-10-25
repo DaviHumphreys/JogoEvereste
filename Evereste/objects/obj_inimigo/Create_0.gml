@@ -2,14 +2,17 @@ event_inherited();
 
 velx = 10;
 
-estado = EnemyState.BASICO;
+estado = EnemyState.NORMAL;
 
 enum EnemyState
 {
 	BASICO,
 	NORMAL,
 	ATENTO,
-	ATACANDO
+	ATACANDO,
+	ATAQUEBOSS1,
+	ATAQUEBOSS2,
+	ATAQUEBOSS3
 }
 
 function EnemyStateNormal()

@@ -4,10 +4,10 @@ if(!piscando)
 {
 	velx = 0;
 	vely = 0;
-	vida -= 1;
+	vida -= 0.5;
 	piscando = true;
 	flashAlpha = 0.85;
-	FreezeFrame(200);
+	//FreezeFrame(00);
 	inimigo = other;
 	estado = playerState.DANO;
 }

@@ -7,10 +7,16 @@ sprite_index = sprites[movendo]
 velx = movex * vel
 
 	//pulo
+if(pulo_forca <= -0.2)
+{
+	pulo_forca = -2.2	
+}
+
 
 if(place_meeting(x, y+10, obj_parede) && puloInicio)
 {
 	pulo_forca = 1.33;
+	puloDuploInicio = true;
 	esta_pulando = true;
 	vely = -pulo_vel * pulo_forca;
 }
@@ -25,11 +31,27 @@ else if(keyboard_check_released(ord("W")) and pulo_forca >= 0.10)
 }*/
 else
 {
-	esta_pulando = false;
+	
 	if(vely < max_vely)
 	{
-		vely += GRAVIDADE * massa;
+		vely += GRAVIDADE * massa * 1.3;
 	}
+	if(puloDuplo && pulo && puloDuploInicio)
+	{
+		pulo_forca = 1.15;
+		esta_pulando = true;
+		puloDuploInicio = false;
+	}
+	if(esta_pulando && pulo && puloInicio)
+	{
+		pulo_forca -= 0.07;
+		vely = -pulo_vel * pulo_forca;
+	}
+	else
+	{
+		esta_pulando = false;
+	}
+	
 
 }
 
@@ -118,7 +140,7 @@ if(place_meeting(x, y, obj_parede)) {
 
 	// Ataque
 
-if(ataque)
+if(ataque && cdATK <= 0)
 {
 	if(!place_meeting(x, y+10, obj_parede) and baixo and movex == 0)
 	{
@@ -133,6 +155,7 @@ if(ataque)
 	{
 	instance_create_layer(x + 500 * sign(image_xscale), y - 600, "Instances", obj_atkPlayer)
 	}
+	cdATK = 1
 }
 
 

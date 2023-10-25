@@ -11,7 +11,7 @@ switch (estado)
 	case playerState.DANO: PlayerStateDANO(); break;
 }
 
-
+cdATK -= 0.04;
 
 
 function Piscar(_cd)
