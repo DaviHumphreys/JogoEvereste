@@ -1,21 +1,23 @@
-
-	// Cooldown dano
-if(!piscando)
+/*if(obj_inimigo.vivo = true)
 {
-	velx = 0;
-	vely = 0;
-	vida -= 0.5;
-	piscando = true;
-	flashAlpha = 0.85;
-	//FreezeFrame(00);
-	inimigo = other;
-	estado = playerState.DANO;
+		// Cooldown dano
+	if(!piscando)
+	{
+		velx = 0;
+		vely = 0;
+		vida -= 0.5;
+		piscando = true;
+		flashAlpha = 0.85;
+		//FreezeFrame(00);
+		inimigo = other;
+		estado = playerState.DANO;
+	}
+
+
+
+	if(vida <= 0)
+	{
+		instance_destroy();	
+	}
 }
-
-
-
-if(vida <= 0)
-{
-	instance_destroy();	
-}
-
+*/

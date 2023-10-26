@@ -1,5 +1,6 @@
 event_inherited();
 
-estado = EnemyState.BASICO;
+estado = EnemyState.NORMAL;
 
 image_xscale *= -1;
+

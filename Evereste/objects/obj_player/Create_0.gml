@@ -27,7 +27,7 @@ enum playerState
 	TRAVADO
 }
 
-inimigo = 0
+inimigo = 0 // Para o playerState.DANO
 vida = 3;
 
 keyboard_set_map(vk_up, ord("W"));

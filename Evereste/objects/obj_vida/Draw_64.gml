@@ -1,3 +1,8 @@
+if(!instance_exists(obj_player))
+{
+	instance_destroy()	
+}
+
 var _vidaPlayer = obj_player.vida
 var _vidaPlayerMAX = obj_player.vida_max
 var _vidaPlayerFrac = frac(_vidaPlayer)

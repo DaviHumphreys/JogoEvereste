@@ -17,6 +17,7 @@
     {"name":"inst_1143E732","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_56D1D643","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_53639CC0","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_45F14CCC","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -41,6 +42,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1143E732","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":11600.0,"y":6000.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_56D1D643","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5200.0,"y":6000.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53639CC0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_vida","path":"objects/obj_vida/obj_vida.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-400.0,"y":4400.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_45F14CCC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6000.0,"y":6800.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_chao_Fundo","depth":300,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_TintCol","type":1,"value":"#FF999999",},

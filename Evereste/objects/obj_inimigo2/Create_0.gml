@@ -5,6 +5,15 @@ atacando = false;
 cd = 0;
 cdATK = 0;
 
+sprites[0] = spr_grievousAndando;
+sprites[1] = spr_grievousMorrendo;
+sprites[2] = spr_grievousCorrendo;
+sprites[3] = spr_GrievousCharging;
+frameMorte = 32;
+
+
+distPlayer = 0;
+
 function EnemyStateAtento()
 {
 	if(distance_to_object(obj_player) > 3000)
@@ -26,16 +35,17 @@ function EnemyStateAtento()
 		}
 	}
 	
-	if(distance_to_object(obj_player) < 1250 && cdATK <= 0)
+	if(distance_to_object(obj_player) < 2250 && cdATK <= 0 /*( y - obj_player.y <= 50 or y - obj_player.y>= -50)*/)
 	{
 		velx = 0;
 		atacando = true;
+		spr = 3;
 	}
 	
 	if(atacando)
 	{
 		cd += 0.2
-		if(cd >= 3)
+		if(cd >= 4)
 		{
 			atacar = true;
 			if(atacar)
@@ -49,7 +59,10 @@ function EnemyStateAtento()
 
 function EnemyStateNormal()
 {
-	if(distance_to_object(obj_player) < 2000)
+	
+	spr = 0;
+	
+	if(distance_to_object(obj_player) < 2000 and distPlayer >= -200 and distPlayer <= 200)
 	{
 		velx = 10
 		estado = EnemyState.ATENTO;
@@ -81,7 +94,7 @@ function EnemyStateNormal()
 			x+= sign(velx)
 		}
 
-		velx = 0
+		//velx = 0
 	}
 
 
@@ -99,20 +112,22 @@ function EnemyStateNormal()
 
 function EnemyStateAtacando()
 {
+	
+	spr = 2;
 	if(image_xscale == 1)
 	{
-		velx = 50;
+		velx = 60;
 	}
 	else
 	{
-		velx = -50;
+		velx = -60;
 	}
 
 	cd += 0.02
 	if(cd >= 2)
 	{
 		cdATK = 3;
-		velx /= 5;
+		velx /= 6;
 		atacando = false;
 		cd = 0;
 		atacar = false;

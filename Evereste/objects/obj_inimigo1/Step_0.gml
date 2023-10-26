@@ -1,6 +1,7 @@
-event_inherited()
+event_inherited();
 
-if(estado == EnemyState.BASICO)
+
+if(estado == EnemyState.NORMAL)
 {
 	
 	if(place_meeting(x, y+1, obj_parede))
@@ -19,7 +20,7 @@ if(estado == EnemyState.BASICO)
 		{
 			vely += GRAVIDADE * massa;
 		}
-		y += vely;
+		y += vely
 	}
 	
 	if place_meeting(x + velx,y,obj_parede)
@@ -44,4 +45,3 @@ if(estado == EnemyState.BASICO)
 
 }
 	
-

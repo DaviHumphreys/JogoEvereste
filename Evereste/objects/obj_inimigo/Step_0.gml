@@ -1,6 +1,14 @@
 if (vida <= 0)
 {
-	instance_destroy()
+	vivo = false;
+	spr = 1;
+	velx = 0;
+	vely = 0;
+	if(image_index >= frameMorte -1)
+	{
+		image_index -= 1;
+	}
+	estado = EnemyState.BASICO;
 }
 
 if(flashAlpha > 0)

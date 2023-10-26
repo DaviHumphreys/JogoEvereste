@@ -1,8 +1,9 @@
 event_inherited();
 
 velx = 10;
-
+frameMorte = 0;
 estado = EnemyState.NORMAL;
+vivo = true;
 
 enum EnemyState
 {

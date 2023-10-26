@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_inimigo11",
-    "path": "sprites/spr_inimigo11/spr_inimigo11.yy",
+    "name": "spr_grievousAndando",
+    "path": "sprites/spr_grievousAndando/spr_grievousAndando.yy",
   },
   "spriteMaskId": null,
   "visible": true,

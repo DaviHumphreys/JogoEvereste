@@ -9,3 +9,6 @@ velx = 0
 
 flashAlpha = 0;
 flashColor = c_white;
+
+sprites[0] = 0;
+spr = 0;
