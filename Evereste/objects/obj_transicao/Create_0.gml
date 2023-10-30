@@ -1,7 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+image_xscale *= 1000;
+image_yscale *= 1000;
 
-mudei = false;
-destino = 0
-destino_x = 0
-destino_y = 0
+vel = .05;
+
+image_alpha = 1;
+
+t = 0;
+
+cd = 3;

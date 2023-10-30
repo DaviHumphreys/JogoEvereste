@@ -142,7 +142,7 @@ if(place_meeting(x, y, obj_parede)) {
 
 if(ataque && cdATK <= 0)
 {
-	if(!place_meeting(x, y+10, obj_parede) and baixo and movex == 0)
+	if(!place_meeting(x, y+10, obj_parede) and baixo)
 	{
 		instance_create_layer(x, y + 300, "Instances", obj_atkPlayer)
 		if(place_meeting(x, y + 400, obj_inimigo))
