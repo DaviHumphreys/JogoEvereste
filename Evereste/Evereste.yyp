@@ -36,6 +36,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Andando","folderPath":"folders/Sprites/Player/Andando.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Parado","folderPath":"folders/Sprites/Player/Parado.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Boss","folderPath":"folders/Sprites/Boss.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Trans.wmv","CopyToMask":-1,"filePath":"datafiles",},
@@ -48,6 +49,7 @@
   "resources": [
     {"id":{"name":"spr_grievousAndando","path":"sprites/spr_grievousAndando/spr_grievousAndando.yy",},},
     {"id":{"name":"spr_grade","path":"sprites/spr_grade/spr_grade.yy",},},
+    {"id":{"name":"obj_atkBoss2","path":"objects/obj_atkBoss2/obj_atkBoss2.yy",},},
     {"id":{"name":"obj_preMenu","path":"objects/obj_preMenu/obj_preMenu.yy",},},
     {"id":{"name":"spr_Fundo1","path":"sprites/spr_Fundo1/spr_Fundo1.yy",},},
     {"id":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},},
@@ -57,6 +59,7 @@
     {"id":{"name":"obj_atkBoss","path":"objects/obj_atkBoss/obj_atkBoss.yy",},},
     {"id":{"name":"obj_gradeMenu","path":"objects/obj_gradeMenu/obj_gradeMenu.yy",},},
     {"id":{"name":"Tile_chao1","path":"tilesets/Tile_chao1/Tile_chao1.yy",},},
+    {"id":{"name":"spr_atkBoss2","path":"sprites/spr_atkBoss2/spr_atkBoss2.yy",},},
     {"id":{"name":"obj_iluminacao","path":"objects/obj_iluminacao/obj_iluminacao.yy",},},
     {"id":{"name":"obj_atkPlayer","path":"objects/obj_atkPlayer/obj_atkPlayer.yy",},},
     {"id":{"name":"spr_aranheto","path":"sprites/spr_aranheto/spr_aranheto.yy",},},
@@ -64,6 +67,7 @@
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},},
     {"id":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},},
+    {"id":{"name":"spr_bossIdle","path":"sprites/spr_bossIdle/spr_bossIdle.yy",},},
     {"id":{"name":"obj_sensor","path":"objects/obj_sensor/obj_sensor.yy",},},
     {"id":{"name":"obj_vida","path":"objects/obj_vida/obj_vida.yy",},},
     {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},

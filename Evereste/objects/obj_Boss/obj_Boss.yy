@@ -6,6 +6,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -33,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite18",
-    "path": "sprites/Sprite18/Sprite18.yy",
+    "name": "spr_bossIdle",
+    "path": "sprites/spr_bossIdle/spr_bossIdle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
