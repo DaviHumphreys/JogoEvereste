@@ -1,6 +1,6 @@
 resL = 1920;
 resA = 1080;
-resScale = 2;
+resScale = 2.021;
 
 global.larguraCamera = resL / resScale;
 global.alturaCamera = resA / resScale;

@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_atkBoss",
-    "path": "sprites/spr_atkBoss/spr_atkBoss.yy",
+    "name": "Energy_Ball_1",
+    "path": "sprites/Energy_Ball_1/Energy_Ball_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
