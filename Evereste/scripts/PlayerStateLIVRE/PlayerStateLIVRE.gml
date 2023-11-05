@@ -3,7 +3,7 @@ function PlayerStateLIVRE(){
 script_execute(get_Input)
 
 #region Movimento e Pulo
-sprite_index = sprites[movendo]
+sprite_index = sprites[spr]
 velx = movex * vel
 
 	//pulo
@@ -144,7 +144,7 @@ if(ataque && cdATK <= 0)
 {
 	if(!place_meeting(x, y+10, obj_parede) and baixo)
 	{
-		instance_create_layer(x, y + 300, "Instances", obj_atkPlayer)
+		instance_create_layer(x, y, "Instances", obj_atkPlayer)
 		if(place_meeting(x, y + 400, obj_inimigo))
 		{
 			pulinho = true;
@@ -153,7 +153,9 @@ if(ataque && cdATK <= 0)
 	}
 	else
 	{
-	instance_create_layer(x + 500 * sign(image_xscale), y - 600, "Instances", obj_atkPlayer)
+		image_index = 1;
+		spr = 2;
+		instance_create_layer(x + 500 * sign(image_xscale), y - 600, "Instances", obj_atkPlayer)
 	}
 	cdATK = 1
 }
@@ -161,15 +163,10 @@ if(ataque && cdATK <= 0)
 
 	// Sprite anda e vira
 	
-if(movex != 0)
+if(movex != 0 and cdATK <= 0.5)
 {
-		// Deixa a troca do sprite parado para o andando fluida e precisa
 		
-	if(sprite_index != spr_andando)
-	{
-		image_index = 11
-	}
-	movendo = 1
+	spr = 1
 	if(movex < 0)
 	{
 		image_xscale = -1
@@ -180,10 +177,11 @@ if(movex != 0)
 	}
 
 }
-else
+else if(cdATK <= 0.45)
 {
-	movendo = 0;	
+	spr = 0;	
 }
+
 
 if(pulinho)
 {

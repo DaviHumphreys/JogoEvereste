@@ -11,10 +11,13 @@ xx = room_width/2;
 yy = 3000;
 ultimoAtaque = 0;
 xMoveTowards = 0;
+risada = 0;
+frameMorte = 50;
 
 spr = 0;
 sprites[0] = spr_bossIdle;
 sprites[1] = spr_atkBoss3;
+sprites[2] = spr_BossRisada;
 
 function EnemyStateAtaque1()
 {
@@ -51,7 +54,22 @@ function EnemyStateAtaque3()
 		atirar = false;
 		xMoveTowards = 0;
 		velx = 180;
+		risada++;
 		estado = EnemyState.NORMAL
+	}
+}
+
+function EnemyStateAtento()
+{
+	cdATK -= 0.01;
+	if(cdATK <= 5)
+	{
+		x = xx;
+		y = yy + 2000;
+		if(cdATK <= 2)
+		{
+			estado = EnemyState.NORMAL;
+		}
 	}
 }
 
@@ -71,6 +89,7 @@ function EnemyStateNormal()
 			x = 1500
 			y = 4500
 			atirar = true;
+			cdATK = 3.3;
 			estado = EnemyState.ATAQUEBOSS1;
 		}
 		else if(rand >= 2 and rand < 3)
@@ -105,6 +124,13 @@ function EnemyStateNormal()
 			estado = EnemyState.ATAQUEBOSS3;
 		}
 	}
+	else if(risada == 3)
+	{
+		spr = 2;
+		cdATK = 8;
+		risada = 0;
+		estado = EnemyState.ATENTO;
+	}
 }
 
 
@@ -124,6 +150,7 @@ function Atk(ataque, t, tiros)
 	}
 	else
 	{
+		risada++;
 		ultimoAtaque = 1;
 		estado = EnemyState.NORMAL
 	}

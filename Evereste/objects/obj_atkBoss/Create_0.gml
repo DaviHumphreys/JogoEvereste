@@ -1,4 +1,4 @@
-alarm[0] = irandom_range(5, 40);;
+alarm[0] = irandom_range(5, 40);
 alarm[1] = 200;
 speed = 38
 alvo = false;

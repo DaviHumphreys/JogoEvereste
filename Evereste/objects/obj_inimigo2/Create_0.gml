@@ -4,6 +4,7 @@ atacar = false;
 atacando = false;
 cd = 0;
 cdATK = 0;
+cabeca = true;
 
 sprites[0] = spr_grievousAndando;
 sprites[1] = spr_grievousMorrendo;

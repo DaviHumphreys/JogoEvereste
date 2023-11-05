@@ -11,7 +11,8 @@ puloDuploInicio = true;
 cdATK = 0;
 
 sprites[0] = spr_parado;
-sprites[1] = spr_andando;
+sprites[1] = spr_leoAndando;
+sprites[2] = spr_leoAtacando;
 
 movendo = 0;
 piscando = false;
