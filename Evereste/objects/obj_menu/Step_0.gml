@@ -9,7 +9,7 @@ if(obj_botaoOpcoes.opcoes)
 	}
 	else
 	{
-		if(grade.x <= 200)
+		if(grade.x <= 2000)
 		{
 			Ir(grade);
 		}
@@ -21,13 +21,13 @@ if(obj_botaoOpcoes.opcoes)
 }
 else
 {
-	if(grade.x >= -6368)
+	if(grade.x >= -6360)
 	{
 		Voltar(grade);
 	}
 	else
 	{
-		if(botoes.x < 416)
+		if(botoes.x < 410)
 		{
 			Ir(obj_optionsTXT);
 			Ir(obj_sairTXT);

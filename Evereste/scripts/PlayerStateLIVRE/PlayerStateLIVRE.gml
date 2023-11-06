@@ -57,9 +57,9 @@ else
 
 	//bater cabeça caiu
 	
-if(place_meeting(x, y-10, obj_parede))
+if(place_meeting(x, y-1, obj_parede))
 {
-	pulo_forca = -0.7
+	pulo_forca = 0
 	
 }
 

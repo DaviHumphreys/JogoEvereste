@@ -4,7 +4,7 @@ estado = EnemyState.NORMAL;
 
 velx = 8;
 
-vely = 11;
+vely = 10;
 
 spawnx = x;
 spawny = y;
