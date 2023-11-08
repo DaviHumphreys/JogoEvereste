@@ -11,5 +11,5 @@ sprites[9] = spr_BossRisada
 
 sprite_prefetch_multi(sprites)
 
-room_goto(RoomBoss);
+room_goto(Room02);
 audio_pause_sound(snd_musicaMenu);

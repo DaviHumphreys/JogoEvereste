@@ -1,0 +1,3 @@
+global.controle = -1;
+
+

@@ -10,6 +10,7 @@ if(v >= t)
 	obj_Boss.estado = EnemyState.NORMAL;
 	obj_player.estado = playerState.LIVRE;	
 	obj_camera.view_target = obj_player;
+	audio_play_sound(snd_musicaBoss, 1, false);
 	instance_destroy();
 }
 

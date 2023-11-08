@@ -2,6 +2,15 @@ function PlayerStateLIVRE(){
 
 script_execute(get_Input)
 
+gamepad_set_axis_deadzone(global.controle, 0.25)
+esquerda = keyboard_check(ord("A")) or gamepad_axis_value(global.controle, gp_axislh) < -0.25 
+direita = keyboard_check(ord("D")) or gamepad_axis_value(global.controle, gp_axislh) > 0.25 
+pulo = keyboard_check(ord("W")) or gamepad_button_check(global.controle, gp_face1)
+puloInicio = keyboard_check_pressed(ord("W")) or gamepad_button_check_pressed(global.controle, gp_face1)
+ataque = keyboard_check_pressed(ord("J")) or gamepad_button_check_pressed(global.controle, gp_face3)
+baixo = keyboard_check(ord("S")) or gamepad_axis_value(global.controle, gp_axislv) > 0.25 
+
+movex = direita - esquerda
 #region Movimento e Pulo
 sprite_index = sprites[spr]
 velx = movex * vel
