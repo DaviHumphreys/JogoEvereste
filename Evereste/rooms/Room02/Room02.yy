@@ -16,6 +16,7 @@
     {"name":"inst_53639CC0","path":"rooms/Room02/Room02.yy",},
     {"name":"inst_F8393C6","path":"rooms/Room02/Room02.yy",},
     {"name":"inst_10A7C6AB","path":"rooms/Room02/Room02.yy",},
+    {"name":"inst_27C9652","path":"rooms/Room02/Room02.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -27,7 +28,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61D972E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":-90.00088,"scaleX":34.788086,"scaleY":146.41605,"x":13522.957,"y":6879.209,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_675D2DAD","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sensor","path":"objects/obj_sensor/obj_sensor.yy",},"properties":[],"rotation":0.0,"scaleX":14.673157,"scaleY":31.225586,"x":17898.0,"y":5798.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F8393C6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-800.0,"y":5600.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Preto","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4E5783A1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":145.25,"scaleY":17.0,"spriteId":{"name":"Sprite2638","path":"sprites/Sprite2638/Sprite2638.yy",},"x":9120.0,"y":8064.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_513B0860","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":69.00001,"scaleY":14.0,"spriteId":{"name":"Sprite2638","path":"sprites/Sprite2638/Sprite2638.yy",},"x":13840.0,"y":7104.0,},
@@ -47,6 +48,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":300,"effectEnabled":true,"effectType":"none","gridX":400,"gridY":400,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53639CC0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_vida","path":"objects/obj_vida/obj_vida.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-400.0,"y":4400.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10A7C6AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1200.0,"y":6400.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27C9652","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-1200.0,"y":3600.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_chao_Fundo","depth":400,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_TintCol","type":1,"value":"#FF999999",},

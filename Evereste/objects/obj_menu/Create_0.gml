@@ -1,3 +1,5 @@
+audio_pause_all()
+
 audio_play_sound(snd_musicaMenu, 1, true);
 
 

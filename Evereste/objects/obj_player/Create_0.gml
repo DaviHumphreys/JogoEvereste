@@ -1,5 +1,6 @@
 event_inherited()
 
+
 pulo_forca = 1.23;
 knockback_forca = 1;
 pulo_vel = 80;

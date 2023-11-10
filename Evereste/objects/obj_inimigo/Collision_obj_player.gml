@@ -17,7 +17,7 @@ if(vivo)
 
 	if(_player.vida <= 0)
 	{
-		instance_destroy(_player);	
+		audio_pause_all();
 	}
 }
 
