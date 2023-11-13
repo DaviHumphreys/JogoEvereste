@@ -69,8 +69,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Evereste",
-    "path": "Evereste.yyp",
+    "name": "Andando",
+    "path": "folders/Sprites/Player/Andando.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

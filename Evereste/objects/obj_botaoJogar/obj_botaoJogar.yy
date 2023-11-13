@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_botao",
-    "path": "sprites/spr_botao/spr_botao.yy",
+    "name": "MENU_Jogar",
+    "path": "sprites/MENU_Jogar/MENU_Jogar.yy",
   },
   "spriteMaskId": null,
   "visible": true,

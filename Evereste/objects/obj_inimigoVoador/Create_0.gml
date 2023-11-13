@@ -4,10 +4,15 @@ estado = EnemyState.NORMAL;
 
 velx = 8;
 
-vely = 10;
+vely = 20;
 
 spawnx = x;
 spawny = y;
+
+frameMorte = 43
+
+sprites[0] = spr_caveirasmatica;
+sprites[1] = spr_caveirasmaticaMorrendo;
 
 function EnemyStateAtento()
 {
@@ -41,8 +46,6 @@ function EnemyStateNormal()
 	{
 		estado = EnemyState.ATENTO;
 	}
-	
-	Volta(spawnx, spawny);
 }
 
 function Volta(_spawnx, _spawny)

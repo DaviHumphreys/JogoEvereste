@@ -14,10 +14,11 @@ if(vivo)
 	}
 
 
-
-	if(_player.vida <= 0)
+if(_player.vida <= 0)
 	{
-		audio_pause_all();
+		_player.velx = 0;
+		_player.vely = 0;
+		_player.vivo = false;
 	}
 }
 

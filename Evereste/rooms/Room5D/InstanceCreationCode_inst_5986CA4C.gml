@@ -1,0 +1,1 @@
+checkpointRoom = Room5D;

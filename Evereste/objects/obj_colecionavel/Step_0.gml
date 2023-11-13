@@ -1,0 +1,5 @@
+image_index = numero
+
+
+
+

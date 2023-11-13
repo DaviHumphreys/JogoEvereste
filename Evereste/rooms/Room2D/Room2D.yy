@@ -20,8 +20,13 @@
     {"name":"inst_4065C05D_1","path":"rooms/Room2D/Room2D.yy",},
     {"name":"inst_5C56E7E0","path":"rooms/Room2D/Room2D.yy",},
     {"name":"inst_27FEB28F","path":"rooms/Room2D/Room2D.yy",},
-    {"name":"inst_EB3FED3","path":"rooms/Room2D/Room2D.yy",},
     {"name":"inst_6D51D91C","path":"rooms/Room2D/Room2D.yy",},
+    {"name":"inst_6A2AE62F","path":"rooms/Room2D/Room2D.yy",},
+    {"name":"inst_15812AE7","path":"rooms/Room2D/Room2D.yy",},
+    {"name":"inst_B7BF878","path":"rooms/Room2D/Room2D.yy",},
+    {"name":"inst_C53FE7D","path":"rooms/Room2D/Room2D.yy",},
+    {"name":"inst_48336F21","path":"rooms/Room2D/Room2D.yy",},
+    {"name":"inst_697B33BB","path":"rooms/Room2D/Room2D.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -46,6 +51,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C56E7E0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":151.27689,"scaleY":4.369404,"x":6715.5,"y":2012.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27FEB28F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":29.558136,"scaleY":5.838154,"x":10447.0,"y":2335.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D51D91C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":5.745635,"scaleY":3.9006538,"x":5125.0,"y":4789.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A2AE62F","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_espinhos","path":"objects/obj_espinhos/obj_espinhos.yy",},"properties":[],"rotation":0.0,"scaleX":33.3125,"scaleY":4.796875,"x":9161.751,"y":4934.047,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15812AE7","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_espinhos","path":"objects/obj_espinhos/obj_espinhos.yy",},"properties":[],"rotation":0.0,"scaleX":64.59375,"scaleY":7.25,"x":5905.0,"y":6346.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B7BF878","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_espinhos","path":"objects/obj_espinhos/obj_espinhos.yy",},"properties":[],"rotation":0.0,"scaleX":4.125,"scaleY":12.671875,"x":10154.0,"y":4436.875,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"AssetsFrenteP","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_2F7420BA","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":1.0713167,"scaleX":-3.1063082,"scaleY":-4.5074625,"spriteId":{"name":"spr_pedra3","path":"sprites/spr_pedra3/spr_pedra3.yy",},"x":480.0,"y":-64.0,},
@@ -238,7 +246,9 @@
 9,805306375,536870919,9,536870919,805306375,-11,8,10,536870919,805306375,9,9,268435463,7,9,8,8,9,-3,8,6,9,268435463,7,8,7,268435463,-6,0,
 -5,8,9,7,268435463,8,9,805306375,536870919,9,8,8,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_chao1","path":"tilesets/Tile_chao1/Tile_chao1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EB3FED3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4320.0,"y":3744.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C53FE7D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigo1","path":"objects/obj_inimigo1/obj_inimigo1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3360.0,"y":4512.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48336F21","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4736.0,"y":5696.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_697B33BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6848.0,"y":5664.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_2","depth":900,"effectEnabled":true,"effectType":"_filter_vignette","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_VignetteEdges","type":0,"value":"0.3",},

@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_grade",
-    "path": "sprites/spr_grade/spr_grade.yy",
+    "name": "spr_Box",
+    "path": "sprites/spr_Box/spr_Box.yy",
   },
   "spriteMaskId": null,
   "visible": true,

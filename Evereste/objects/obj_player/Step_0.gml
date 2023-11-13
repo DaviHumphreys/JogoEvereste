@@ -42,3 +42,14 @@ function Piscar(_cd)
 	
 	return _cd;
 }
+
+sprite_index = sprites[spr]
+
+if(!vivo)
+{
+	room_goto(respawnroom);
+	x = respawnx;
+	y = respawny;
+	vida = vida_max;
+	vivo = true;
+}

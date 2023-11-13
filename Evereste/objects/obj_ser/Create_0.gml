@@ -1,6 +1,6 @@
 vel = 40
 vida = 5
-vida_max = 3
+vida_max = 5
 massa = 50
 
 vely = 0

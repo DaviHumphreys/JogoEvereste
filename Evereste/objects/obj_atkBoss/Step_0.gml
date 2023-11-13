@@ -7,13 +7,13 @@ if(alvo)
 }
 else
 {
-	if(image_angle > 45)
+	if(image_angle > 25)
 	{
-		image_angle+= 1.3	
+		image_angle+= 0.7	
 	}
 	else
 	{
-		image_angle-= 1.5
+		image_angle-= 0.9
 	}
 	direction = image_angle;
 }

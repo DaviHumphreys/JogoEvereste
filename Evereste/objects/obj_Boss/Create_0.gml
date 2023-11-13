@@ -1,15 +1,15 @@
 event_inherited();
 
+vida = 35;
 alarm[0] = 15;
 atirar = false;
 maxtiros = 0;
-cdATK = 2;
+cdATK = 1.5;
 voltar = false;
 playerDireita = 0;
 velx = 180;
 xx = room_width/2;
 yy = 3000;
-ultimoAtaque = 0;
 xMoveTowards = 0;
 risada = 0;
 frameMorte = 50;
@@ -62,7 +62,7 @@ function EnemyStateAtaque3()
 function EnemyStateAtento()
 {
 	cdATK -= 0.01;
-	if(cdATK <= 5)
+	if(cdATK <= 4)
 	{
 		x = xx;
 		y = yy + 2000;
@@ -82,9 +82,9 @@ function EnemyStateNormal()
 	cdATK -= 0.01
 	if(cdATK <= 0)
 	{
-		cdATK = 2
-		var rand = random_range(1, 4);
-		if(rand < 2 && ultimoAtaque != 1)
+		cdATK = 1.5
+		var rand = random_range(1, 10);
+		if(rand < 3)
 		{
 			x = 1500
 			y = 4500
@@ -92,12 +92,11 @@ function EnemyStateNormal()
 			cdATK = 3.3;
 			estado = EnemyState.ATAQUEBOSS1;
 		}
-		else if(rand >= 2 and rand < 3)
+		else if(rand >= 3 and rand < 6)
 		{
 			x = xx;
 			y = yy;
 			atirar = true;
-			ultimoAtaque = 0
 			estado = EnemyState.ATAQUEBOSS2;
 		}
 		else
@@ -120,15 +119,22 @@ function EnemyStateNormal()
 			atirar = false;
 			alarm_set(1, 70)
 			alarm_set(0, 24)
-			ultimoAtaque = 0
 			estado = EnemyState.ATAQUEBOSS3;
 		}
 	}
 	else if(risada == 3)
 	{
 		spr = 2;
-		cdATK = 8;
+		cdATK = 5;
 		risada = 0;
+		if(obj_player.x > room_width / 2)
+		{
+			image_xscale = -1;	
+		}
+		else
+		{
+			image_xscale = 1;	
+		}
 		estado = EnemyState.ATENTO;
 	}
 }
@@ -151,7 +157,6 @@ function Atk(ataque, t, tiros)
 	else
 	{
 		risada++;
-		ultimoAtaque = 1;
 		estado = EnemyState.NORMAL
 	}
 	maxtiros = mt;

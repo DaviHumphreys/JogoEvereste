@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Evereste",
-    "path": "Evereste.yyp",
+    "name": "Inimigos",
+    "path": "folders/Sprites/Inimigos.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

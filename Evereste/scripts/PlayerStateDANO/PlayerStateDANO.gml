@@ -45,6 +45,7 @@ if(inimigo != obj_espinhos)
 if(piscando_cd <= 4.8)
 {
 	estado = playerState.LIVRE;
+	piscando_cd = 7;
 	knockback_forca = 1;
 }
 

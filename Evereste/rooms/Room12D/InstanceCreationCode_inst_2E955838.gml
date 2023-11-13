@@ -1,3 +1,3 @@
-targetRoom = Room08;
-targetX = 403;
+targetRoom = Room11D;
+targetX = 1000;
 targetY = 4604;

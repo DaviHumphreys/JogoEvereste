@@ -10,3 +10,5 @@ window_set_size(global.larguraCamera * resScale, global.alturaCamera * resScale)
 surface_resize(application_surface, global.larguraCamera * resScale, global.alturaCamera * resScale)
 
 obj_camera.view_target = obj_bossIntroManager;
+audio_stop_all()
+obj_player.spr = 0;

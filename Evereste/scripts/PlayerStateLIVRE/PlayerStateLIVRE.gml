@@ -12,7 +12,7 @@ baixo = keyboard_check(ord("S")) or gamepad_axis_value(global.controle, gp_axisl
 
 movex = direita - esquerda
 #region Movimento e Pulo
-sprite_index = sprites[spr]
+
 velx = movex * vel
 
 	//pulo
@@ -43,7 +43,7 @@ else
 	
 	if(vely < max_vely)
 	{
-		vely += GRAVIDADE * massa * 1.3;
+		vely += GRAVIDADE * massa * 2;
 	}
 	if(puloDuplo && pulo && puloDuploInicio)
 	{
@@ -153,12 +153,9 @@ if(ataque && cdATK <= 0)
 {
 	if(!place_meeting(x, y+10, obj_parede) and baixo)
 	{
-		instance_create_layer(x, y, "Instances", obj_atkPlayer)
-		if(place_meeting(x, y + 400, obj_inimigo))
-		{
-			pulinho = true;
-			pulo_forca = 1;
-		}
+		spr = 5;
+		instance_create_layer(x, y, "Instances", obj_atkPlayerBaixo)
+		
 	}
 	else
 	{
@@ -172,7 +169,7 @@ if(ataque && cdATK <= 0)
 
 	// Sprite anda e vira
 	
-if(movex != 0 and cdATK <= 0.5)
+if(movex != 0 and cdATK <= 0.5 and place_meeting(x, y+10, obj_parede))
 {
 		
 	spr = 1
@@ -188,7 +185,24 @@ if(movex != 0 and cdATK <= 0.5)
 }
 else if(cdATK <= 0.45)
 {
-	spr = 0;	
+	spr = 0;
+	if(vely > 0)
+	{
+		spr = 4;
+	}
+	else if(vely < 0)
+	{
+		spr = 3;	
+	}
+	
+	if(movex < 0)
+	{
+		image_xscale = -1
+	}
+	else if(movex > 0)
+	{
+		image_xscale = 1
+	}
 }
 
 
@@ -202,6 +216,10 @@ if(pulinho)
 	}
 }
 
+
+
+
+
 }
 
 function Pulinho(_vely, _pulo_vel, _pulo_forca)
@@ -209,3 +227,6 @@ function Pulinho(_vely, _pulo_vel, _pulo_forca)
 	_vely = -_pulo_vel * _pulo_forca;
 	return _vely;
 }
+
+
+

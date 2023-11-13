@@ -16,6 +16,9 @@
     {"name":"inst_88A010_2_3","path":"rooms/Room8D/Room8D.yy",},
     {"name":"inst_58F97FA_2_2","path":"rooms/Room8D/Room8D.yy",},
     {"name":"inst_510445CF_2_3","path":"rooms/Room8D/Room8D.yy",},
+    {"name":"inst_228F8D6B","path":"rooms/Room8D/Room8D.yy",},
+    {"name":"inst_719354CC","path":"rooms/Room8D/Room8D.yy",},
+    {"name":"inst_56611C6D","path":"rooms/Room8D/Room8D.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -108,7 +111,11 @@
 0,-4,8,4,268435466,268435461,5,1073741830,-16,0,4,6,5,268435461,5,-4,8,-3,1879048200,1,1342177285,-16,0,1,536870919,-7,8,-3,
 1879048200,1,1073741829,-16,0,1,7,-7,8,-3,1879048200,1,268435466,-3,268435461,1,5,-3,268435461,1,5,-3,268435461,1,5,-3,268435461,2,
 5,10,-87,8,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_chao1","path":"tilesets/Tile_chao1/Tile_chao1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_228F8D6B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_nadar","path":"objects/obj_nadar/obj_nadar.yy",},"properties":[],"rotation":0.0,"scaleX":5.4444447,"scaleY":5.114286,"x":6016.0,"y":3456.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_719354CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_colecionavel","path":"objects/obj_colecionavel/obj_colecionavel.yy",},"properties":[],"rotation":-24.18494,"scaleX":2.665437,"scaleY":2.665437,"x":9024.0,"y":3711.9998,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_56611C6D","colour":4278225151,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_checkPoint","path":"objects/obj_checkPoint/obj_checkPoint.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":4320.0,"y":2944.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"AssetsFundo1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_823CA3_1_1","animationSpeed":1.0,"colour":4282984703,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.7408543,"scaleY":1.740854,"spriteId":{"name":"spr_Fundo1_1","path":"sprites/spr_Fundo1_1/spr_Fundo1_1.yy",},"x":352.0,"y":-96.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_3E06D51_1_1","animationSpeed":1.0,"colour":4282984703,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.7408543,"scaleY":1.740854,"spriteId":{"name":"spr_Fundo1_1","path":"sprites/spr_Fundo1_1/spr_Fundo1_1.yy",},"x":2686.8257,"y":27.868652,},
@@ -159,7 +166,7 @@
   "viewSettings": {
     "clearDisplayBuffer": true,
     "clearViewBackground": false,
-    "enableViews": true,
+    "enableViews": false,
     "inheritViewSettings": false,
   },
   "volume": 1.0,

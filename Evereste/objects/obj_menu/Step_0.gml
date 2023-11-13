@@ -1,38 +1,34 @@
-if(obj_botaoOpcoes.opcoes)
+if(obj_botaoCreditos.creditos)
 {
 	if(botoes.x >= -2500)
 	{
 		Voltar(botoes)
-		Voltar(obj_jogarTXT);
-		Voltar(obj_sairTXT);
-		Voltar(obj_optionsTXT);
 	}
 	else
 	{
-		if(grade.x <= 2000)
+		if(grade.x <= 4400)
 		{
 			Ir(grade);
+			Ir(texto)
 		}
 		if(keyboard_check_pressed(vk_escape))
 		{
-			obj_botaoOpcoes.opcoes = false
+			obj_botaoCreditos.creditos = false
 		}
 	}
 }
 else
 {
-	if(grade.x >= -6360)
+	if(grade.x >= -2784)
 	{
 		Voltar(grade);
+		Voltar(texto);
 	}
 	else
 	{
-		if(botoes.x < 410)
+		if(botoes.x < 992)
 		{
-			Ir(obj_optionsTXT);
-			Ir(obj_sairTXT);
 			Ir(botoes)
-			Ir(obj_jogarTXT);
 		}	
 	}
 }

@@ -10,7 +10,12 @@ if(!_player.piscando)
 	_player.inimigo = self;
 	_player.estado = playerState.DANO;
 }
+
 if(_player.vida <= 0)
-{
-	instance_destroy(_player);	
-}
+	{
+		_player.velx = 0;
+		_player.vely = 0;
+		_player.vivo = false;
+		audio_stop_all()
+		obj_musica.TocarMusica(snd_semParar)
+	}
