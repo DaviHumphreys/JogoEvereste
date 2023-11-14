@@ -1,6 +1,7 @@
 var _player = obj_player;
 if(!_player.piscando)
 {
+	audio_play_sound(DOR, 1, false)
 	_player.velx = 0;
 	_player.vely = 0;
 	_player.vida -= 0.5;

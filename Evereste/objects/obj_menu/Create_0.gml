@@ -17,3 +17,5 @@ function Voltar(xx)
 botoes = obj_opcoesMenu
 grade = obj_gradeMenu
 texto = obj_texto
+esc = obj_ESC
+cred = obj_creditos

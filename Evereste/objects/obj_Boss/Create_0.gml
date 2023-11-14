@@ -1,6 +1,6 @@
 event_inherited();
 
-vida = 35;
+vida = 40;
 alarm[0] = 15;
 atirar = false;
 maxtiros = 0;
@@ -120,6 +120,7 @@ function EnemyStateNormal()
 			alarm_set(1, 70)
 			alarm_set(0, 24)
 			estado = EnemyState.ATAQUEBOSS3;
+			audio_play_sound(voom, 1, false)
 		}
 	}
 	else if(risada == 3)
@@ -136,6 +137,7 @@ function EnemyStateNormal()
 			image_xscale = 1;	
 		}
 		estado = EnemyState.ATENTO;
+		audio_play_sound(BOSSRISADA, 1, false)
 	}
 }
 

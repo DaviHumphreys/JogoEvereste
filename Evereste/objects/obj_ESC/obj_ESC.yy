@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_videoTrans",
+  "name": "obj_ESC",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Sistemas",
-    "path": "folders/Objetos/Sistemas.yy",
+    "name": "Menu",
+    "path": "folders/Objetos/Sistemas/Menu.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "ESC",
+    "path": "sprites/ESC/ESC.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

@@ -38,8 +38,8 @@ enum playerState
 }
 
 inimigo = 0 // Para o playerState.DANO
-vida = 3;
-vida_max = 3;
+vida = 4;
+vida_max = 4;
 
 keyboard_set_map(vk_up, ord("W"));
 keyboard_set_map(vk_left, ord("A"));

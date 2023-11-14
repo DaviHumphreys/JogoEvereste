@@ -29,8 +29,6 @@
     {"name":"inst_4CF0038D_1","path":"rooms/Room3D/Room3D.yy",},
     {"name":"inst_311D8485","path":"rooms/Room3D/Room3D.yy",},
     {"name":"inst_172EF7C","path":"rooms/Room3D/Room3D.yy",},
-    {"name":"inst_17F8550F","path":"rooms/Room3D/Room3D.yy",},
-    {"name":"inst_2D9C76C6","path":"rooms/Room3D/Room3D.yy",},
     {"name":"inst_3E7D2782","path":"rooms/Room3D/Room3D.yy",},
     {"name":"inst_3D7F27DB","path":"rooms/Room3D/Room3D.yy",},
     {"name":"inst_30F6A17B","path":"rooms/Room3D/Room3D.yy",},
@@ -41,6 +39,7 @@
     {"name":"inst_33B00849","path":"rooms/Room3D/Room3D.yy",},
     {"name":"inst_6D85A781","path":"rooms/Room3D/Room3D.yy",},
     {"name":"inst_42383C7","path":"rooms/Room3D/Room3D.yy",},
+    {"name":"inst_A6AF9EF","path":"rooms/Room3D/Room3D.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -251,8 +250,6 @@
 268435461,5,268435461,5,268435461,5,268435461,5,268435461,5,268435461,5,268435461,5,268435461,5,536870920,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_chao1","path":"tilesets/Tile_chao1/Tile_chao1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_172EF7C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3072.0,"y":5984.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17F8550F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8128.0,"y":1920.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D9C76C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5984.0,"y":6112.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E7D2782","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8576.0,"y":5472.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D7F27DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":13472.0,"y":4736.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30F6A17B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":15904.0,"y":4288.0,},
@@ -261,6 +258,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18A533D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":9888.0,"y":3072.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6ADB48C2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inimigoVoador","path":"objects/obj_inimigoVoador/obj_inimigoVoador.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":10848.0,"y":2848.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42383C7","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_colecionavel","path":"objects/obj_colecionavel/obj_colecionavel.yy",},"properties":[],"rotation":0.0,"scaleX":2.665437,"scaleY":2.665437,"x":12448.0,"y":3104.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A6AF9EF","colour":4279337215,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_checkPoint","path":"objects/obj_checkPoint/obj_checkPoint.yy",},"properties":[],"rotation":0.0,"scaleX":1.562896,"scaleY":1.5628959,"x":928.0,"y":3968.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"AssetsFundo1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_823CA3_1_2_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":2.5,"scaleY":2.5,"spriteId":{"name":"spr_Fundo1_1","path":"sprites/spr_Fundo1_1/spr_Fundo1_1.yy",},"x":2208.0,"y":64.0,},

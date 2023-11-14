@@ -9,7 +9,9 @@ if(obj_botaoCreditos.creditos)
 		if(grade.x <= 4400)
 		{
 			Ir(grade);
-			Ir(texto)
+			Ir(texto);
+			Ir(esc);
+			Ir(cred);
 		}
 		if(keyboard_check_pressed(vk_escape))
 		{
@@ -23,6 +25,8 @@ else
 	{
 		Voltar(grade);
 		Voltar(texto);
+		Voltar(esc);
+		Voltar(cred);
 	}
 	else
 	{

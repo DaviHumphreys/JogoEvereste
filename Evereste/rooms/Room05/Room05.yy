@@ -35,7 +35,6 @@
     {"name":"inst_51B9CDB3","path":"rooms/Room05/Room05.yy",},
     {"name":"inst_6FC5FA55","path":"rooms/Room05/Room05.yy",},
     {"name":"inst_39BB1606","path":"rooms/Room05/Room05.yy",},
-    {"name":"inst_EF32E23","path":"rooms/Room05/Room05.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -62,7 +61,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61C6A35C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":19.160812,"scaleY":3.7607276,"x":2912.0,"y":2752.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7D3F6DB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":71.17644,"scaleY":3.4169776,"x":4940.5,"y":2269.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68664D9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sensor","path":"objects/obj_sensor/obj_sensor.yy",},"properties":[],"rotation":0.0,"scaleX":9.281421,"scaleY":22.793547,"x":17344.0,"y":6720.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EF32E23","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_puloDuplo","path":"objects/obj_puloDuplo/obj_puloDuplo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":13344.0,"y":3744.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"AssetsFrente","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1990DF8","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":2.0,"scaleY":1.7,"spriteId":{"name":"spr_pedra4","path":"sprites/spr_pedra4/spr_pedra4.yy",},"x":16736.0,"y":7712.0,},

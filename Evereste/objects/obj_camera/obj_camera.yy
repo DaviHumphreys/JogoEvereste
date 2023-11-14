@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Sistemas",
-    "path": "folders/Objetos/Sistemas.yy",
+    "name": "Outros",
+    "path": "folders/Objetos/Sistemas/Outros.yy",
   },
   "parentObjectId": null,
   "persistent": true,

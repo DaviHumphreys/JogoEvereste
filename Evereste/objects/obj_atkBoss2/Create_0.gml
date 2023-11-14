@@ -1,3 +1,5 @@
+audio_play_sound(laser, 1, false)
+
 image_angle = 270;
 
 y = 5664;

@@ -10,7 +10,7 @@
 	_player.piscando_cd = 4;
 	//FreezeFrame(00);
 	_player.inimigo = self;
-	
+	audio_play_sound(DOR, 1, false)
 
 
 	_player.x = respawnx;

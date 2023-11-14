@@ -1,5 +1,6 @@
 if(vivo)
 {
+	audio_play_sound(DOR, 1, false)
 	var _player = obj_player;
 	if(!_player.piscando)
 	{

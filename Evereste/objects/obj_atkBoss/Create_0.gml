@@ -1,3 +1,5 @@
+audio_play_sound(bolinha, 1, false)
+
 alarm[0] = irandom_range(5, 40);
 alarm[1] = 300;
 speed = 38
