@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Creditos",
-    "path": "sprites/Creditos/Creditos.yy",
+    "name": "spr_creditos",
+    "path": "sprites/spr_creditos/spr_creditos.yy",
   },
   "spriteMaskId": null,
   "visible": true,
